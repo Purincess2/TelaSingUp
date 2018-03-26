@@ -4,21 +4,21 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"
+        android:icon="@drawable/ic_menu_black_24dp"
+        app:showAction="always"
+        app:title="@string/create_title"
+        app:titleTextColor="@color/text"></android.support.v7.widget.Toolbar>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="vertical"
         android:weightSum="1">
-
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/tb_create"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:title="@string/create_title"
-            app:titleTextColor="@color/text" />
 
         <EditText
             android:id="@+id/tf_create_username"

@@ -25,4 +25,6 @@
     <string name="create_datebirth">Date of Birth</string>
     <string name="create_biography">Biography</string>
     <string name="create_button">Create</string>
+    <string name="my_profile">My Profile</string>
+    <string name="sw_account">Enable/Disable account</string>
 </resources>

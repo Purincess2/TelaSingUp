@@ -17,5 +17,6 @@
     <dimen name="textViewStartHeight">40dp</dimen>
     <dimen name="create_bt_bottom">10dp</dimen>
     <dimen name="create_bt_leftright">20dp</dimen>
+    <dimen name="create_margin">5dp</dimen>
 
 </resources>
